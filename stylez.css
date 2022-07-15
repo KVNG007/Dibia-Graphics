@@ -1,0 +1,106 @@
+*, body, *:before, *:after{
+    margin: 0;
+    padding: 0;
+    font-family: fredoka;
+    box-sizing: border-box;
+    background-color:rgba(255, 248, 239, 1);
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+img {
+    width:100%;
+    margin-bottom:40px ;
+    border-radius: 1em;
+    box-shadow: 5px 4px 2px 5px rgba(114, 114, 114, 0.067);
+}
+.logo {
+    border-radius: 1em;
+    position:relative;
+    margin-bottom: 40px;
+}
+.logo img {
+    margin: 0;
+    padding: 0;
+}
+.logo h4 {
+    font-size: 2em;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 126, 79, 0);
+    position: absolute;
+    left: 10%;
+    bottom:20%;
+}
+
+.prefoot{
+    margin-bottom: 40px;
+    padding: 20px ;
+    border-radius: 1em; 
+    box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.prefoot h4 {
+    font-size:1.5em;
+    font-weight: 400;
+}
+.prefoot ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+a {
+    text-decoration:none;
+    color:white;
+    background-color: rgba(255, 127, 79, 1);
+    border: none;
+    border-radius: .7em;
+    box-shadow: 2px 4px 10px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px 15px;
+
+}
+a:hover {
+    background-color: rgb(219, 109, 70);
+    box-shadow: 2px 4px 15px 2px rgba(0, 0, 0, 0.35);
+}
+
+footer {
+    padding-bottom: 50px;
+}
+
+@media(max-width:680px) {
+    .logo h4 {
+        font-size: 1.2em;
+        
+    }
+
+    .prefoot h4 {
+        font-size:1em ;
+    }
+    .prefoot li {
+        font-size: .8em;
+    }
+}
+@media(max-width:480px) {
+    .logo h4 {
+        font-size: .8em;
+        
+    }
+    .prefoot h4 {
+        font-size:.8em ;
+    }
+    .prefoot li {
+        font-size: .6em;
+    }
+}
+/* SMART COIN SMART COIN SMART COIN SMART COIN SMART COIN SMART COIN SMART COIN SMART COIN SMART COIN SMART COIN*/
+
+
