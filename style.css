@@ -30,6 +30,18 @@ li {
           transform: translateY(-5px);
 }
 
+#backtotop {
+  position: fixed;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  cursor: pointer;
+  right: 15px;
+  bottom: 10px;
+  width: 45px;
+  height: 45px;
+  z-index: 4;
+}
+
 #current {
   border-bottom: 2px solid #ff7f4f;
   color: #ff7f4f;
