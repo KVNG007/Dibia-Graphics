@@ -279,8 +279,7 @@ nav ul li a:hover {
 }
 
 .about .about__content .about__box li {
-  margin: 12px 0px;
-  font-size:.8em;
+  margin: 20px 0px;
 }
 
 /* SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES SERVICES */
@@ -977,7 +976,8 @@ footer {
     margin: 3px 0px;
   }
   .about .about__content .about__box li {
-    margin: 4px 0px;
+   margin: 12px 0px;
+  font-size:.8em;
   }
   .services .services__main {
     padding: 30px 0px;
