@@ -993,25 +993,26 @@ footer {
             position:relative;
             z-index:3;
         }
-       }
-
         .elip {
             position: absolute;
-            height: 20%;
+            height: 22%;
             width:80px;
             left: 5%;
             z-index: 2;
         }
         .el-1 {
             width: 100px;
-            height:17%;
+            height:22%;
             z-index: 2;
         }
         .el-2 {
-            height:17%;
-            padding-top: 68px;
+            height:22%;
+            padding-top: 71px;
             width: 100px;
-        }   
+        } 
+       }
+
+          
         .footer__icons {
                 display:flex;
                 justify-content: space-between;
@@ -1029,6 +1030,22 @@ footer {
 }
 
 /* GIGTGIGTIGTGIGTGIGTIGIGTIGITIGITIGITIGIIGITIGIIGTIGITIGITIGITGITIGITIGITIGIGTIGITIGITIGIGIIGITIGIGTIIGI*/
+
+@media (max-width:394px) {
+    .hire {
+        .el-1 {
+            width: 100px;
+            height:18%;
+            z-index: 2;
+        }
+        .el-2 {
+            height:18%;
+            padding-top: 68px;
+            width: 100px;
+        }
+       }   
+}
+
 @media (max-width:381px){
     
     .about__content {
@@ -1103,6 +1120,20 @@ footer {
         }
         .el-2 {
             height:23%;
+            padding-top: 68px;
+            width: 100px;
+        }
+       }    
+}
+@media (max-width:361px) {
+    .hire {
+        .el-1 {
+            width: 100px;
+            height:21%;
+            z-index: 2;
+        }
+        .el-2 {
+            height:21%;
             padding-top: 68px;
             width: 100px;
         }
