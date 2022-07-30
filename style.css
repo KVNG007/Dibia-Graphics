@@ -866,7 +866,7 @@ footer {
   .head .accent-small {
     position: absolute;
     z-index: 1;
-    top: 65%;
+    top: 69%;
     width: 60px;
   }
   .head .head-1 {
@@ -976,8 +976,7 @@ footer {
     margin: 3px 0px;
   }
   .about .about__content .about__box li {
-   margin: 12px 0px;
-  font-size:.8em;
+    margin: 4px 0px;
   }
   .services .services__main {
     padding: 30px 0px;
@@ -1003,25 +1002,25 @@ footer {
   }
   .portfolio .mid-1 {
     z-index: 1;
-    width: 80px;
+    width: 60px;
   }
   .portfolio .mid-2 {
-    width: 200px;
+    width: 150px;
     right: 0;
-    -webkit-transform: translateY(370px);
-            transform: translateY(370px);
+    -webkit-transform: translateY(320px);
+            transform: translateY(320px);
   }
   .portfolio .mid-3 {
-    left: 40px;
-    width: 320px;
+    left: 30px;
+    width: 180px;
   }
   .portfolio .mid-4 {
     position: absolute;
     z-index: 1;
     right: 50px;
-    width: 40px;
-    -webkit-transform: translateY(30px);
-            transform: translateY(30px);
+    width: 30px;
+    -webkit-transform: translateY(40px);
+            transform: translateY(40px);
   }
   .port__content .port__card {
     padding: 20px 20px;
@@ -1073,7 +1072,7 @@ footer {
     margin: 150px 0px 50px 0px;
   }
   .port__content .hire h2 {
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: 400;
     position: relative;
     z-index: 3;
@@ -1087,12 +1086,12 @@ footer {
   }
   .port__content .el-1 {
     width: 100px;
-    height: 23%;
+    height: 17%;
     z-index: 2;
   }
   .port__content .el-2 {
-    height: 20%;
-    padding-top: 80px;
+    height: 17%;
+    padding-top: 68px;
     width: 100px;
   }
   .port__content .footer__icons {
@@ -1113,7 +1112,7 @@ footer {
 }
 
 /* GIGTGIGTIGTGIGTGIGTIGIGTIGITIGITIGITIGIIGITIGIIGTIGITIGITIGITGITIGITIGITIGIGTIGITIGITIGIGIIGITIGIGTIIGI*/
-@media (max-width: 376px) {
+@media (max-width: 381px) {
   .about__content img {
     width: 50%;
     height: 220px;
@@ -1131,24 +1130,28 @@ footer {
   .about__content .about__box h3 {
     margin: 3px 0px;
   }
+  .about__content .about__box p {
+    font-size: .9em;
+    line-height: 1.1;
+  }
   .about__content .about__box li {
     margin: 4px 0px;
+    font-size: .95em;
   }
-  .elip {
-    position: absolute;
-    height: 20%;
-    width: 80px;
-    left: 5%;
-    z-index: 2;
+  .services__main .services__content .services__text h2 {
+    font-size: 1.5em;
   }
-  .el-1 {
+  .services__main .services__content .services__text p {
+    font-size: 1em;
+  }
+  .hire .el-1 {
     width: 100px;
-    height: 2%;
+    height: 21%;
     z-index: 2;
   }
-  .el-2 {
-    height: 20%;
-    padding-top: 80px;
+  .hire .el-2 {
+    height: 21%;
+    padding-top: 68px;
     width: 100px;
   }
   .footer__icons {
@@ -1165,6 +1168,19 @@ footer {
   }
   .footer__icons img {
     width: 25px;
+  }
+}
+
+@media (max-width: 376px) {
+  .hire .el-1 {
+    width: 100px;
+    height: 22%;
+    z-index: 2;
+  }
+  .hire .el-2 {
+    height: 23%;
+    padding-top: 68px;
+    width: 100px;
   }
 }
 /*# sourceMappingURL=style.css.map */
